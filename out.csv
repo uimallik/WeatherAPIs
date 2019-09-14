@@ -1,0 +1,5 @@
+
+city,country,temp,weather_date,weather_time,weather_type
+London,uk,287.45,2019-09-12,01:33:46,Clouds
+Manchester,uk,286.02,2019-09-12,01:33:54,Clouds
+Boston,usa,296.58,2019-09-12,01:29:13,Clouds
