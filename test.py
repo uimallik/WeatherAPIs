@@ -16,7 +16,7 @@ def weather_data(cities_countries):
         city_country_dict = dict(city_country)
         city = city_country_dict['city']
         country = city_country_dict['country']
-        r = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+city+','+country+'&APPID=105222c8ca6a109640171a9e886c6876')
+        r = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+city+','+country+'&APPID='')
         response = json.loads(r.content)
         weather = response['weather']
         temp = response['main']
